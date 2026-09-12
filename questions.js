@@ -223,7 +223,7 @@ const questions = [
 
         "and the feed mole ratio is F = [M1]/[M2].\n\n" +
 
-        "If the growing radical is M1*, the probability of reaction P2 is:",
+        "If the growing radical is M1*, the probability of reaction P2 is: <span style=\"color:red;\">(G-24)</span>",
 
     options: [
         "1/(r1F + 1)",
