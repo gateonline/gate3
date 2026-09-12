@@ -900,13 +900,6 @@ function calculateScore() {
     }
 
 
-    if (score < 0) {
-
-        score = 0;
-
-    }
-
-
     return Number(
         score.toFixed(2)
     );
@@ -1160,7 +1153,7 @@ function finalSubmit() {
     document.getElementById(
         "resultScore"
     ).innerText =
-        score +
+        score.toFixed(2) +
         " / 36";
 
 
