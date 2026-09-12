@@ -1161,7 +1161,7 @@ function finalSubmit() {
         "resultScore"
     ).innerText =
         score +
-        " / 35";
+        " / 36";
 
 
     document.getElementById(
