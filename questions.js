@@ -555,5 +555,6 @@ const questions = [
     type: "MCQ",
 
     marks: 1,
-
+}
+   
 ];
