@@ -968,14 +968,13 @@ function finalSubmit() {
     /*
      * GOOGLE APPS SCRIPT WEB APP
      *
-     * This is the same Web App URL used by
-     * the previous test.
+     * This is the new Web App URL for sheet 3.
      *
      * The Apps Script itself now writes to Sheet3.
      */
 
     let url =
-        "https://script.google.com/macros/s/AKfycbw_AyF_eyKtsgT-ufYemQjAa6QxhOzzySsmJCY45fxeBZtT2xc0O-ARRlpdv2PQVX7Piw/exec";
+        "https://script.google.com/macros/s/AKfycbxkiOY8NS1Iydi50n1kxbMab1z0zBWRF3FsOAc7YRRhZEZTeQIstlzXeH2cBH3ttpsABA/exec";
 
 
     /*
