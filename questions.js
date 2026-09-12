@@ -24,12 +24,12 @@ const questions = [
 
 
 /* =====================================================
-   Q2 — MSQ — 2 MARKS
+   Q2 — MSQ — 1 MARKS
    ===================================================== */
 
 {
     question:
-        "Which of the following polymers is/are synthesized by ring-opening polymerization? (G-24)",
+        "Which of the following polymers is/are synthesized by ring-opening polymerization? <span style=\"color:red;\">(G-24)</span>",
 
     options: [
         "Poly(lactic acid)",
@@ -42,7 +42,7 @@ const questions = [
 
     type: "MSQ",
 
-    marks: 2
+    marks: 1
 },
 
 
@@ -323,7 +323,7 @@ const questions = [
 
 
 /* =====================================================
-   Q13 — MCQ — 1 MARK
+   Q13 — MCQ — 2 MARK
    ===================================================== */
 
 {
@@ -353,12 +353,12 @@ const questions = [
 
     type: "MCQ",
 
-    marks: 1
+    marks: 2
 },
 
 
 /* =====================================================
-   Q14 — MCQ — 2 MARKS
+   Q14 — MCQ — 1 MARKS
    ===================================================== */
 
 {
@@ -388,7 +388,7 @@ const questions = [
 
     type: "MCQ",
 
-    marks: 2
+    marks: 1
 },
 
 
@@ -398,7 +398,7 @@ const questions = [
 
 {
     question:
-        "If a given polyethylene sample has specific volume v = 1.042 × 10^(-3) m³ kg^(-1), specific volume of the crystalline fraction vc = 0.989 × 10^(-3) m³ kg^(-1), and specific volume of the amorphous fraction va = 1.160 × 10^(-3) m³ kg^(-1), then the % crystallinity (based on mass fraction) of the polyethylene sample is ______ %. (G-24)",
+        "If a given polyethylene sample has specific volume v = 1.042 × 10^(-3) m³ kg^(-1), specific volume of the crystalline fraction vc = 0.989 × 10^(-3) m³ kg^(-1), and specific volume of the amorphous fraction va = 1.160 × 10^(-3) m³ kg^(-1), then the % crystallinity (based on mass fraction) of the polyethylene sample is ______ %. <span style=\"color:red;\">(G-24)</span>",
 
     type: "NAT",
 
@@ -501,7 +501,7 @@ const questions = [
 
 
 /* =====================================================
-   Q21 — MCQ — 2 MARKS
+   Q21 — MCQ — 1 MARKS
    ===================================================== */
 
 {
@@ -527,7 +527,33 @@ const questions = [
 
     type: "MCQ",
 
-    marks: 2
-}
+    marks: 1
+},
+/* =====================================================
+   Q22 — MCQ — 1 MARKS
+   ===================================================== */
+
+{
+    question:
+        "A polymer has: Specific volume of amorphous phase = 1.18 cm³/g\n\n" +
+
+        "Specific volume of crystalline phase = 1.06 cm³/g\n\n" +
+
+        "Specific volume of sample = 1.10 cm³/g\n\n" +
+
+        "The mass fraction crystallinity is closest to:",
+
+    options: [
+        "33%",
+        "50%",
+        "67%",
+        "83%"
+    ],
+
+    answer: 2,
+
+    type: "MCQ",
+
+    marks: 1,
 
 ];
